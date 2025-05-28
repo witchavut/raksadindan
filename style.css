@@ -46,3 +46,14 @@ select, input[type="date"] {
   cursor: pointer;
   border-radius: 5px;
 }
+
+.start-btn {
+  background-color: #008080;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
