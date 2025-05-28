@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ระบบเช็คชื่อ</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <img src="logo.png" alt="โลโก้โรงเรียน" class="logo" />
+    <h1>ระบบเช็คชื่อชมรมนักศึกษาวิชาทหาร 1/2568</h1>
+
+    <div class="form-group">
+      <label for="year">เลือกชั้นปี:</label>
+      <select id="year">
+        <option value="1">ปีที่ 1</option>
+        <option value="2">ปีที่ 2</option>
+        <option value="3">ปีที่ 3</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="date">เลือกวันที่:</label>
+      <input type="date" id="date" />
+    </div>
+  </div>
+
+  <button class="admin-btn" onclick="goToAdmin()">ผู้ดูแลระบบ</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
